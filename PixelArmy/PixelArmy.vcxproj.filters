@@ -19,6 +19,12 @@
     <Filter Include="Source Files\Command">
       <UniqueIdentifier>{e55d6916-10bf-4454-aae9-c5fab5f03457}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\PickSalami">
+      <UniqueIdentifier>{c52927d9-7e62-408c-820f-5dcd4ea09ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PickSalami">
+      <UniqueIdentifier>{bdb4a495-8560-465a-a30c-c8996de2e4dd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -42,6 +48,18 @@
     <ClInclude Include="Command.h">
       <Filter>Header Files\Command</Filter>
     </ClInclude>
+    <ClInclude Include="SalamiMain.h">
+      <Filter>Header Files\PickSalami</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSpawner.h">
+      <Filter>Header Files\PickSalami</Filter>
+    </ClInclude>
+    <ClInclude Include="TextWriter.h">
+      <Filter>Header Files\PickSalami</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemeTune.h">
+      <Filter>Header Files\PickSalami</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -64,6 +82,18 @@
     </ClCompile>
     <ClCompile Include="Command.cpp">
       <Filter>Source Files\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="SalamiMain.cpp">
+      <Filter>Source Files\PickSalami</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSpawner.cpp">
+      <Filter>Source Files\PickSalami</Filter>
+    </ClCompile>
+    <ClCompile Include="TextWriter.cpp">
+      <Filter>Source Files\PickSalami</Filter>
+    </ClCompile>
+    <ClCompile Include="ThemeTune.cpp">
+      <Filter>Source Files\PickSalami</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

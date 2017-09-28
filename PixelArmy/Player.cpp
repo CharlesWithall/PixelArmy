@@ -2,7 +2,7 @@
 
 
 
-Player::Player()
+Player::Player() : myBacklineXCoordinate(1), isMarchingRight(false)
 {
 }
 

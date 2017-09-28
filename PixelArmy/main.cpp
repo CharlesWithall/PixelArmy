@@ -2,38 +2,49 @@
 #include "InputHandler.h"
 #include "Command.h"
 #include "Player.h"
+#include "SalamiMain.h"
 
 int main()
 {
-	sf::RenderWindow window(sf::VideoMode(800, 600), "Pixel Army");
-	
-	Player* playerOne = new Player();
-	Player* playerTwo = new Player();
-	InputHandler* inputHandler = new InputHandler();
+	bool ENABLE_SALAMI = true;
 
-	while (window.isOpen())
+	if (ENABLE_SALAMI)
 	{
-		window.clear();
-		sf::Event event;
-		while (window.pollEvent(event))
-		{
-			Command* command = inputHandler->HandleInput(playerOne, event);
-			if (!command) command = inputHandler->HandleInput(playerTwo, event);
+		SalamiMain* salamiMain = new SalamiMain();
+		salamiMain->Run();
+	}
+	else
+	{
+		sf::RenderWindow window(sf::VideoMode(800, 600), "Pixel Army");
 
-			if (command)
+		Player* playerOne = new Player();
+		Player* playerTwo = new Player();
+		InputHandler* inputHandler = new InputHandler();
+
+		while (window.isOpen())
+		{
+			window.clear();
+			sf::Event event;
+			while (window.pollEvent(event))
 			{
-				command->Execute();
-				delete command;
+				Command* command = inputHandler->HandleInput(playerOne, event);
+				if (!command) command = inputHandler->HandleInput(playerTwo, event);
+
+				if (command)
+				{
+					//command->Execute();
+					delete command;
+				}
+
+				if (event.type == sf::Event::Closed)
+					window.close();
 			}
 
-			if (event.type == sf::Event::Closed)
-				window.close();
+			window.display();
 		}
 
-		window.display();
+		delete inputHandler;
 	}
-
-	delete inputHandler;
 
 	return 0;
 }
