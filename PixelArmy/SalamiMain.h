@@ -14,8 +14,8 @@ private:
 	const int spawnerY1 = 200;
 	const int spawnerY2 = 400;
 	const int spawnerY3 = 600;
-	const float myTimeBeforeSpawn = 1.5f;
-	const int mySpeed = 1;
+	const float myTimeBeforeSpawn = 1.2f;
+	const int mySpeed = 900;
 	sf::Time mySpeedTimeAccumulated;
 };
 

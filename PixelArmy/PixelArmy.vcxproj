@@ -118,30 +118,61 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AssetPool.h" />
+    <ClInclude Include="BackgroundBuilder.h" />
+    <ClInclude Include="Behaviour.h" />
+    <ClInclude Include="BehaviourComponent.h" />
     <ClInclude Include="BuildCommand.h" />
     <ClInclude Include="Building.h" />
     <ClInclude Include="Command.h" />
+    <ClInclude Include="CoordinateDefinitions.h" />
+    <ClInclude Include="DEBUG.h" />
+    <ClInclude Include="EntityPool.h" />
+    <ClInclude Include="FightBehaviour.h" />
+    <ClInclude Include="FindTargetBehaviour.h" />
+    <ClInclude Include="GameEntity.h" />
     <ClInclude Include="InputHandler.h" />
-    <ClInclude Include="main.h" />
+    <ClInclude Include="MoveOnAxisBehaviour.h" />
+    <ClInclude Include="MoveToPointBehaviour.h" />
+    <ClInclude Include="PixelArmy.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="Player_Shared.h" />
     <ClInclude Include="SalamiMain.h" />
     <ClInclude Include="Soldier.h" />
     <ClInclude Include="SpriteSpawner.h" />
     <ClInclude Include="TextWriter.h" />
     <ClInclude Include="ThemeTune.h" />
+    <ClInclude Include="WinGameBehaviour.h" />
+    <ClInclude Include="World.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AssetPool.cpp" />
+    <ClCompile Include="BackgroundBuilder.cpp" />
+    <ClCompile Include="Behaviour.cpp" />
+    <ClCompile Include="BehaviourComponent.cpp" />
     <ClCompile Include="BuildCommand.cpp" />
     <ClCompile Include="Building.cpp" />
     <ClCompile Include="Command.cpp" />
+    <ClCompile Include="CoordinateDefinitions.cpp" />
+    <ClCompile Include="DEBUG.cpp" />
+    <ClCompile Include="EntityPool.cpp" />
+    <ClCompile Include="FightBehaviour.cpp" />
+    <ClCompile Include="FindTargetBehaviour.cpp" />
+    <ClCompile Include="GameEntity.cpp" />
     <ClCompile Include="InputHandler.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MoveOnAxisBehaviour.cpp" />
+    <ClCompile Include="MoveToPointBehaviour.cpp" />
+    <ClCompile Include="PixelArmy.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Player_Shared.cpp" />
     <ClCompile Include="SalamiMain.cpp" />
     <ClCompile Include="Soldier.cpp" />
     <ClCompile Include="SpriteSpawner.cpp" />
     <ClCompile Include="TextWriter.cpp" />
     <ClCompile Include="ThemeTune.cpp" />
+    <ClCompile Include="WinGameBehaviour.cpp" />
+    <ClCompile Include="World.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

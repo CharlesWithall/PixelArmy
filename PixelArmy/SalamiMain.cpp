@@ -77,7 +77,7 @@ void SalamiMain::Run()
 		
 		bool move = false;
 
-		if (mySpeedTimeAccumulated.asMilliseconds() > mySpeed)
+		if (mySpeedTimeAccumulated.asMicroseconds() > mySpeed)
 		{
 			move = true;
 			mySpeedTimeAccumulated = sf::Time::Zero;
@@ -89,7 +89,6 @@ void SalamiMain::Run()
 
 		if (showMessage)
 		{
-			
 			textWriter->WriteMessage(&window, successfulClick);
 		}
 		

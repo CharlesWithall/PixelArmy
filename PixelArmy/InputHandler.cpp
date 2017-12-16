@@ -29,36 +29,82 @@ Command* InputHandler::HandleInput(Player* const aPlayer, const sf::Event& anEve
 
 Command* InputHandler::HandlePlayerOne(const sf::Event& anEvent)
 {
-	if (anEvent.key.code == sf::Keyboard::Z)
+	CityRegion selectedRegion = CityRegion::INVALID;
+
+	switch (anEvent.key.code)
 	{
-		return new BuildCommand();
-	}
-	if (anEvent.key.code == sf::Keyboard::X)
-	{
-		// return new UpgradeCommand();
-	}
-	if (anEvent.key.code == sf::Keyboard::C)
-	{
-		// return new CollaborateCommand();
+	case sf::Keyboard::Q:
+		selectedRegion = CityRegion::NORTHWEST;
+		break;
+	case sf::Keyboard::W:
+		selectedRegion = CityRegion::NORTH;
+		break;
+	case sf::Keyboard::E:
+		selectedRegion = CityRegion::NORTHEAST;
+		break;
+	case sf::Keyboard::A:
+		selectedRegion = CityRegion::WEST;
+		break;
+	case sf::Keyboard::S:
+		selectedRegion = CityRegion::CENTRAL;
+		break;
+	case sf::Keyboard::D:
+		selectedRegion = CityRegion::EAST;
+		break;
+	case sf::Keyboard::Z:
+		selectedRegion = CityRegion::SOUTHWEST;
+		break;
+	case sf::Keyboard::X:
+		selectedRegion = CityRegion::SOUTH;
+		break;
+	case sf::Keyboard::C:
+		selectedRegion = CityRegion::SOUTHEAST;
+		break;
 	}
 
-	return nullptr;
+	if (selectedRegion != CityRegion::INVALID)
+		return new BuildCommand(selectedRegion);
+	else
+		return nullptr;
 }
 
 Command* InputHandler::HandlePlayerTwo(const sf::Event& anEvent)
 {
-	if (anEvent.key.code == sf::Keyboard::Numpad1)
+	CityRegion selectedRegion = CityRegion::INVALID;
+
+	switch (anEvent.key.code)
 	{
-		return new BuildCommand();
-	}
-	if (anEvent.key.code == sf::Keyboard::Numpad2)
-	{
-		// return new UpgradeCommand();
-	}
-	if (anEvent.key.code == sf::Keyboard::Numpad3)
-	{
-		// return new CollaborateCommand();
+	case sf::Keyboard::Numpad7:
+		selectedRegion = CityRegion::NORTHWEST;
+		break;
+	case sf::Keyboard::Numpad8:
+		selectedRegion = CityRegion::NORTH;
+		break;
+	case sf::Keyboard::Numpad9:
+		selectedRegion = CityRegion::NORTHEAST;
+		break;
+	case sf::Keyboard::Numpad4:
+		selectedRegion = CityRegion::WEST;
+		break;
+	case sf::Keyboard::Numpad5:
+		selectedRegion = CityRegion::CENTRAL;
+		break;
+	case sf::Keyboard::Numpad6:
+		selectedRegion = CityRegion::EAST;
+		break;
+	case sf::Keyboard::Numpad1:
+		selectedRegion = CityRegion::SOUTHWEST;
+		break;
+	case sf::Keyboard::Numpad2:
+		selectedRegion = CityRegion::SOUTH;
+		break;
+	case sf::Keyboard::Numpad3:
+		selectedRegion = CityRegion::SOUTHEAST;
+		break;
 	}
 
-	return nullptr;
+	if (selectedRegion != CityRegion::INVALID)
+		return new BuildCommand(selectedRegion);
+	else
+		return nullptr;
 }

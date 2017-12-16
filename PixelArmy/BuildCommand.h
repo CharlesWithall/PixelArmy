@@ -4,7 +4,7 @@
 class BuildCommand : public Command
 {
 public:
-	BuildCommand();
+	BuildCommand(CityRegion aRegion);
 	~BuildCommand();
-	void Execute(Player* const aPlayer);
+	void Execute(Player* const aPlayer) override;
 };

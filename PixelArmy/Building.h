@@ -1,17 +1,28 @@
 #pragma once
 
-#include <SFML/Graphics.hpp>
+#include "DEBUG.h"
+#include "GameEntity.h"
 #include "Soldier.h"
 
-class Building
+enum CityRegion;
+class Player;
+
+class Building : public GameEntity
 {
 public:
-	Building();
+	Building(Player* const aPlayer, const sf::Texture& aTexture, const CityRegion& aRegion);
 	~Building();
+
+	void Update(const float& aTimeElapsed) override;
+	void SpawnBattalion();
 private:
-	Soldier mySoldierPrototype;
-	sf::Vector2f myLocation;
-	int myNumberOfSoldiersSpawned;
+	int GetYCoordinateToSpawnSoldier(const int& anIndex, const int& aMaxIndex);
+	Soldier* FindRecyclableSoldier();
+
+	Soldier* mySoldierPrototype;
+	int myBattalionSize;
 	float mySpawnSpeed;
+	Player* const myPlayer;
+	const CityRegion myCityRegion;
 };
 
