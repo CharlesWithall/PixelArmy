@@ -1,8 +1,10 @@
 #include "ThemeTune.h"
 
+#include "AssetPool.h"
+
 ThemeTune::ThemeTune()
 {
-	myAudioFile.loadFromFile("C:\\Users\\Cyrus\\Documents\\Visual Studio 2015\\Projects\\PixelArmy\\Resources\\PickSalami\\ThemeTune-001.wav");
+	myAudioFile.loadFromFile(std::string(RESOURCE_FOLDER) + std::string("PickSalami\\ThemeTune-001.wav"));
 	myAudioPlayer = new sf::Sound();
 }
 

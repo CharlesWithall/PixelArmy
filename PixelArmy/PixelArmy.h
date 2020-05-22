@@ -11,7 +11,6 @@
 #include "InputHandler.h"
 #include "Player.h"
 #include "Player_Shared.h"
-#include "SalamiMain.h"
 #include "World.h"
 
 class PixelArmy

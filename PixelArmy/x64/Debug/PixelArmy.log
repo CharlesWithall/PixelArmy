@@ -1,0 +1,104 @@
+﻿  AssetPool.cpp
+  BackgroundBuilder.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Behaviour.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  BehaviourComponent.cpp
+  BuildCommand.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Building.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Command.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  CoordinateDefinitions.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.cpp(31,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.cpp(32,33): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  DEBUG.cpp
+  EntityPool.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\EntityPool.cpp(17,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  FightBehaviour.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\FightBehaviour.cpp(21,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\FightBehaviour.cpp(22,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  FindTargetBehaviour.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  GameEntity.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  InputHandler.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  main.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  MoveOnAxisBehaviour.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  MoveToPointBehaviour.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  PixelArmy.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\PixelArmy.cpp(9,54): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Player.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\Player.cpp(44,49): warning C4244: '=': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\Player.cpp(54,49): warning C4244: '=': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\Player.cpp(74,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\Player.cpp(75,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\Player.cpp(76,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Player_Shared.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\Player_Shared.cpp(21,52): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  Compiling...
+  SalamiMain.cpp
+  Soldier.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\Soldier.cpp(19,150): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\Soldier.cpp(19,146): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\Soldier.cpp(44,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\Soldier.cpp(47,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\Soldier.cpp(55,50): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\Soldier.cpp(82,158): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\Soldier.cpp(82,154): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  SpriteSpawner.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\SpriteSpawner.cpp(53,30): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\SpriteSpawner.cpp(53,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  TextWriter.cpp
+  ThemeTune.cpp
+  WinGameBehaviour.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  World.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+sfml-graphics-d.lib(sfml-graphics-d-2.dll) : fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'

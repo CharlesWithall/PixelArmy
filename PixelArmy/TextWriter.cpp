@@ -1,10 +1,10 @@
 #include "TextWriter.h"
 
-
+#include "AssetPool.h"
 
 TextWriter::TextWriter()
 {
-	myFont.loadFromFile("C:\\Users\\Cyrus\\Documents\\Visual Studio 2015\\Projects\\PixelArmy\\Resources\\PickSalami\\JOKERMAN.TTF");
+	myFont.loadFromFile(std::string(RESOURCE_FOLDER) + std::string("PickSalami\\JOKERMAN.TTF"));
 }
 
 

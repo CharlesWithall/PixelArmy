@@ -3,7 +3,7 @@
 #include <SFML/Graphics.hpp>
 #include <string>
 
-#define RESOURCE_FOLDER "C:\\Users\\Cyrus\\Documents\\Visual Studio 2015\\Projects\\PixelArmy\\Resources\\"
+#define RESOURCE_FOLDER "..\\Resources\\"
 #define FILEPATH_BUILDING_TEXTURE "Building_Placeholder.png"
 #define FILEPATH_MELEESOLDIER_TEXTURE "MeleeSoldier_Placeholder.png"
 #define FILEPATH_BACKGROUND_TEXTURE "Background_Full_Placeholder.png"

@@ -1,0 +1,6 @@
+﻿  AssetPool.cpp
+  main.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  TextWriter.cpp
+  Generating Code...
+  PixelArmy.vcxproj -> C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\Debug\PixelArmy.exe

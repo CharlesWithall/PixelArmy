@@ -1,10 +1,12 @@
 #include "SpriteSpawner.h"
 
+#include "AssetPool.h"
+
 #include <iostream>
 
 SpriteSpawner::SpriteSpawner(const int& startYCoord, const bool startsOnLeft) : myYCoord(startYCoord), myStartsOnLeft(startsOnLeft)
 {
-	std::string filePath = "C:\\Users\\Cyrus\\Documents\\Visual Studio 2015\\Projects\\PixelArmy\\Resources\\PickSalami\\";
+	std::string filePath = std::string(RESOURCE_FOLDER) + std::string("PickSalami\\");
 	std::vector<std::string> strings = { "NotSalami1.jpg","NotSalami2.jpg","NotSalami3.jpg","NotSalami4.jpg","NotSalami5.jpg","NotSalami6.jpg","Salami1.jpg","Salami2.jpg","Salami3.jpg" };
 
 	for (std::string s : strings)

@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\PixelArmy\CoordinateDefinitions.h(16,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Generating code
+  160 of 472 functions (33.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    10 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  PixelArmy.vcxproj -> C:\Users\charl\Documents\Code\Cpp\PixelArmy\PixelArmy\Release\PixelArmy.exe
